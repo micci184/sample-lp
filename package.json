@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "eslint:fix": "eslint src --ext .js,jsx,.ts,.tsx --fix",
+    "stylelint:fix": "stylelint src/**/*.{css,scss} --fix",
+    "prettier:fix": "prettier --check --write 'src/**/*.{js,jsx,ts,tsx,css,scss,md,mdx}'",
+    "format": "npm run eslint:fix && npm run stylelint:fix && npm run prettier:fix"
   },
   "dependencies": {
     "next": "14.2.3",
@@ -21,7 +25,20 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8.4.38",
+    "prettier": "^3.3.2",
     "tailwindcss": "^3.4.4",
-    "typescript": "^5"
+    "typescript": "^5.1.6",
+    "stylelint": "^14.16.1",
+    "stylelint-prettier": "^2.0.0",
+    "stylelint-config-prettier": "^9.0.0",
+    "stylelint-scss": "^4.0.0",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-recommended-scss": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "eslint-config-prettier": "^8.3.0"
   }
 }
