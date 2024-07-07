@@ -37,6 +37,10 @@
     "source.organizeImports": "never"
   },
 
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
   // VSCodeデフォルトのLintを無効にする（各Lintのルールで統一する際に設定）
   "css.validate": false,
   "scss.validate": false,
