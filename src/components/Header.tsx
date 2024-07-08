@@ -12,11 +12,13 @@ const Header: React.FC = () => {
           height={200}
         />
         <div>
-          <ul className="flex gap-8 text-black text-lg mr-8">
-            <li className="cursor-pointer hover:text-deepskyBlue">TOP</li>
+          <ul className="flex gap-8 text-black text-lg font-bold mr-8">
+            <li className="cursor-pointer hover:text-deepskyBlue">
+              TOP
+            </li>
             <li className="cursor-pointer hover:text-deepskyBlue">COMPANY</li>
             <li className="cursor-pointer hover:text-deepskyBlue">MISSION</li>
-            <li className="cursor-pointer hover:text-deepskyBlue">TEC BLOG</li>
+            <li className="cursor-pointer hover:text-deepskyBlue">TECH BLOG</li>
             <li className="cursor-pointer hover:text-deepskyBlue">CONTACT</li>
           </ul>
         </div>
