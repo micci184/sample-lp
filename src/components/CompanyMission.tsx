@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-export default function CompanySection() {
+const CompanyMission: React.FC = () => {
 	return (
-		<div>CompanySection</div>
-	)
-}
+		<div>
+			
+		</div>
+	);
+};
+
+export default CompanyMission;

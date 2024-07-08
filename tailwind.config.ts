@@ -13,7 +13,10 @@ const config: Config = {
         gray: "#778899",
         darkGray: "#464d53",
         darkdarkGray: "#363d42",
-        pink: "#fa8072"
+        pink: "#fa8072",
+        deepskyBlue: "#00bfff",
+        background: "#d3d3d3",
+        text: "#333",
       },
     },
   },

@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-export default function MainSection() {
+const MainSection = () => {
 	return (
-		<div>MainSection</div>
-	)
+		<div></div>
+  );
 }
+
+export default MainSection;
