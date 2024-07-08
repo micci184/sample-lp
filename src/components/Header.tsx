@@ -18,7 +18,7 @@ const Header: React.FC = () => {
             </li>
             <li className="cursor-pointer hover:text-deepskyBlue">COMPANY</li>
             <li className="cursor-pointer hover:text-deepskyBlue">MISSION</li>
-            <li className="cursor-pointer hover:text-deepskyBlue">TECH BLOG</li>
+            <li className="cursor-pointer hover:text-deepskyBlue">BLOG</li>
             <li className="cursor-pointer hover:text-deepskyBlue">CONTACT</li>
           </ul>
         </div>
