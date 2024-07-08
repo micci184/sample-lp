@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact: React.FC = () => {
   return (
-    <section className="px-4 sm:px-6 md:px-10 lg:px-16 py-8 sm:py-10 md:py-10 lg:py-10 text-center bg-gray-100">
+    <section className="px-4 sm:px-6 md:px-10 lg:px-16 py-20 sm:py-25 md:py-25 lg:py-25 text-center bg-gray-100">
       <p className="text-sm sm:text-xs mb-4">
         弊社へのお問い合わせはこちらよりお願いいたします。
       </p>
