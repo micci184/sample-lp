@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-export default function ContactButton() {
+const ContactButton: React.FC = () => {
 	return (
-		<div>ContactButton</div>
-	)
-}
+		<div>
+			
+		</div>
+	);
+};
+
+export default ContactButton;

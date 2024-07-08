@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-export default function CompanyInfo() {
+const CompanyInfo: React.FC = () => {
 	return (
-		<div>CompanyInfo</div>
-	)
-}
+		<div>
+			
+		</div>
+	);
+};
+
+export default CompanyInfo;
