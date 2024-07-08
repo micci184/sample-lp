@@ -20,6 +20,14 @@ const Header: React.FC = () => {
             </li>
             <li>
               <a
+                href="#service"
+                className="cursor-pointer hover:text-deepskyBlue"
+              >
+                SERVICE
+              </a>
+            </li>
+            <li>
+              <a
                 href="#companyinfo"
                 className="cursor-pointer hover:text-deepskyBlue"
               >
