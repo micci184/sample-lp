@@ -2,6 +2,7 @@ import React from "react";
 
 import CompanyInfo from "@/components/CompanyInfo";
 import CompanyNameOrigin from "@/components/CompanyNameOrigin";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MainSection from "@/components/MainSection";
@@ -15,6 +16,7 @@ export default function Page() {
       <ServiceSection />
       <CompanyNameOrigin />
       <CompanyInfo />
+      <Contact />
       <Footer />
     </div>
   );
