@@ -13,8 +13,8 @@ export default function Page() {
       <Header />
       <MainSection />
       <ServiceSection />
-      <CompanyNameOrigin />
-      <CompanyInfo />
+      {/* <CompanyNameOrigin />
+      <CompanyInfo /> */}
       <Footer />
     </div>
   );

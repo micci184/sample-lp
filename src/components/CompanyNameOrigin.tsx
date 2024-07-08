@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 
 const CompanyNameOrigin: React.FC = () => {
-	return (
-    <div className="px-40 pt-40 pb-60 h-[500px]">
+  return (
+    <div className="px-4 sm:px-10 md:px-20 lg:px-40 pt-10 pb-10 sm:pt-10 sm:pb-10 md:pt-10 md:pb-10 lg:pt-10 lg:pb-10 min-h-[150px] md:min-h-[200px] lg:min-h-[300px]">
       <div className="flex items-end mb-4">
-        <h2 className="text-2xl font-bold text-white bg-darkGray px-4 py-2 w-[350px]">
+        <h2 className="text-xl md:text-2xl font-bold text-white bg-darkGray px-4 py-2 w-full md:w-[350px]">
           Origin of company name
         </h2>
         <div className="flex-1 border-b-2 border-darkGray"></div>
       </div>
       <div>
-        <p className="mb-6 pt-2 text-lg">
+        <p className="mb-6 pt-2 text-base md:text-lg">
           ログスペクト（Logspect）とは、ログ（Log）とスペクト（Spect）を組み合わせた造語です。
           Spect
           は、ラテン語の「spectare」を起源としている英単語で「見る」「観察する」を意味します。
