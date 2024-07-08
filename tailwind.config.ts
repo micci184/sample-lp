@@ -16,7 +16,7 @@ const config: Config = {
         whitesmoke: "#f5f5f5",
         pink: "#fa8072",
         deepskyBlue: "#00bfff",
-        background: "#f5f5f5",
+        background: "#fffafa",
         // background: "#d3d3d3",
         text: "#333",
       },
