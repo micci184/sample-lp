@@ -2,7 +2,7 @@ import React from "react";
 
 const CompanyInfo: React.FC = () => {
   return (
-    <div className="px-4 sm:px-10 md:px-20 lg:px-40 pt-10 sm:pt-10 md:pt-10 lg:pt-10 pb-10 sm:pb-20 md:pb-30 lg:pb-60 min-h-[300px] md:min-h-[400px] lg:min-h-[500px]">
+    <div className="px-4 sm:px-10 md:px-20 lg:px-40 pt-10 sm:pt-10 md:pt-10 lg:pt-10 pb-10 sm:pb-20 md:pb-20 lg:pb-20 min-h-[200px] md:min-h-[300px] lg:min-h-[400px]">
       <div className="flex items-end mb-4">
         <h2 className="text-xl sm:text-2xl font-bold text-white bg-darkGray px-4 py-2 w-full md:w-[350px]">
           Company overview
