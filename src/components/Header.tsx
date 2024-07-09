@@ -12,7 +12,7 @@ const Header: React.FC = () => {
           height={100}
         />
         <nav className="mt-2 sm:mt-0">
-          <ul className="flex flex-col sm:flex-row gap-2 sm:gap-4 text-darkGray text-base font-bold">
+          <ul className="flex flex-col sm:flex-row gap-2 sm:gap-4 text-black text-base font-bold">
             <li>
               <a href="#top" className="cursor-pointer hover:text-deepskyBlue">
                 TOP
