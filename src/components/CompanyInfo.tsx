@@ -27,7 +27,7 @@ const CompanyInfo: React.FC = () => {
             <td className="py-2 px-4">
               〒150-0043
               <br />
-              東京都渋谷区道玄坂1丁目10番8号　渋谷道玄坂東急ビル2F-C
+              東京都渋谷区道玄坂1丁目10番8号 渋谷道玄坂東急ビル2F-C
             </td>
           </tr>
           <tr className="border-b border-lightGray">
