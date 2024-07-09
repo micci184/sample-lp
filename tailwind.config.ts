@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      spacing: {
+        "15": "3.75rem", // 15 * 0.25rem = 3.75rem
+      },
       colors: {
         lightGray: "#d3d3d3",
         gray: "#778899",
@@ -16,12 +19,16 @@ const config: Config = {
         whitesmoke: "#f5f5f5",
         pink: "#fa8072",
         deepskyBlue: "#00bfff",
-        background: "#fffafa",
-        // background: "#d3d3d3",
+        background: "#fff",
         text: "#333",
+      },
+      fontFamily: {
+        sans: ["Oswald", "sans-serif"],
+        japanese: ["Noto Sans JP", "sans-serif"],
       },
     },
   },
   plugins: [],
 };
+
 export default config;
