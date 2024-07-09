@@ -8,8 +8,8 @@ const Header: React.FC = () => {
         <Image
           src="/assets/images/white_logo.jpg"
           alt="Security Logo"
-          width={150} // 画像のサイズを調整
-          height={100} // 画像のサイズを調整
+          width={150}
+          height={100}
         />
         <nav className="mt-2 sm:mt-0">
           <ul className="flex flex-col sm:flex-row gap-2 sm:gap-4 text-darkGray text-base font-bold">
