@@ -16,23 +16,23 @@ const CompanyInfo: React.FC = () => {
         <tbody>
           <tr className="border-b border-lightGray">
             <th className="py-2 px-4 text-sm font-semibold">会社名</th>
-            <td className="py-2 px-4">モモンガ株式会社 / Momonga, Inc.</td>
+            <td className="py-2 px-4">ログスペクト株式会社 / Logspect, Inc.</td>
           </tr>
           <tr className="border-b border-lightGray">
             <th className="py-2 px-4 text-sm font-semibold">代表者</th>
-            <td className="py-2 px-4">代表取締役 モモンガ</td>
+            <td className="py-2 px-4">代表取締役 日比野 恒</td>
           </tr>
           <tr className="border-b border-lightGray">
             <th className="py-2 px-4 text-sm font-semibold">所在地</th>
             <td className="py-2 px-4">
-              〒123-0001
+              〒150-0043
               <br />
-              東京都目黒区柿の木坂1-2-3
+              東京都渋谷区道玄坂1丁目10番8号 渋谷道玄坂東急ビル2F-C
             </td>
           </tr>
           <tr className="border-b border-lightGray">
             <th className="py-2 px-4 text-sm font-semibold">設立日</th>
-            <td className="py-2 px-4">2024年1月1日</td>
+            <td className="py-2 px-4">2024年2月14日</td>
           </tr>
           <tr className="border-b border-lightGray">
             <th className="py-2 px-4 text-sm font-semibold">資本金</th>
