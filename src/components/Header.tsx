@@ -3,16 +3,16 @@ import React from "react";
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-background fixed top-0 left-0 w-full z-50 shadow-md">
-      <div className="flex flex-col sm:flex-row justify-between items-center px-4 sm:px-8 py-1 sm:py-2">
+    <header className="bg-background sm:fixed sm:top-0 sm:left-0 w-full sm:z-50 sm:shadow-md">
+      <div className="flex flex-col sm:flex-row justify-between items-center px-4 sm:px-10 md:px-20 lg:px-40 py-1 sm:py-2">
         <Image
-          src="/assets/images/security_logo.png"
+          src="/assets/images/white_logo.jpg"
           alt="Security Logo"
-          width={100} // 画像のサイズを調整
-          height={50} // 画像のサイズを調整
+          width={150} // 画像のサイズを調整
+          height={100} // 画像のサイズを調整
         />
         <nav className="mt-2 sm:mt-0">
-          <ul className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-black text-base font-bold">
+          <ul className="flex flex-col sm:flex-row gap-2 sm:gap-4 text-darkGray text-base font-bold">
             <li>
               <a href="#top" className="cursor-pointer hover:text-deepskyBlue">
                 TOP
@@ -35,7 +35,10 @@ const Header: React.FC = () => {
               </a>
             </li>
             <li>
-              <a href="#blog" className="cursor-pointer hover:text-deepskyBlue">
+              <a
+                href="https://zenn.dev/p/logspect"
+                className="cursor-pointer hover:text-deepskyBlue"
+              >
                 BLOG
               </a>
             </li>
